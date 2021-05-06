@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 rm -r ./mods
 mkdir -p ./mods
@@ -62,6 +62,8 @@ git clone https://github.com/minetest-mods/airtanks.git
 git clone https://github.com/minetest-mods/digtron.git
 git clone https://github.com/minetest-mods/vehicle_mash.git
 git clone https://github.com/paramat/airboat.git
+
+git clone https://github.com/AiTechEye/aliveai.git
 
 ( find . -type d -name ".git" && find . -name ".gitignore" && find . -name ".github" && find . -name ".gitmodules" ) | xargs -d '\n' rm -rf
 
