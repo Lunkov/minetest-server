@@ -5,22 +5,38 @@ mkdir -p ./mods
 
 cd ./mods/
 
+git clone https://github.com/minetest-mods/mg.git
+
+# User
+git clone https://github.com/minetest-mods/coloured_nametag.git
+git clone https://github.com/minetest-mods/stamina.git
+git clone https://github.com/minetest-mods/hbsprint.git
+git clone https://github.com/minetest-mods/character_creator.git
+# User Skins
+git clone https://github.com/minetest-mods/skinsdb.git
+cd skinsdb/updater
+python3 update_skins.py
+cd ../..
+
 git clone https://github.com/minetest-mods/areas.git
 git clone https://github.com/minetest-mods/warps.git
 git clone https://github.com/minetest-mods/teleport-request.git
 git clone https://github.com/minetest-mods/nether.git
 git clone https://github.com/minetest-mods/ropes.git
 git clone https://github.com/minetest-mods/named_waypoints.git
+git clone https://github.com/minetest-mods/ancientrunes.git
 
 git clone https://github.com/minetest-mods/lightning.git
 git clone https://github.com/minetest-mods/moreores.git
+git clone https://github.com/minetest-mods/quartz.git
 git clone https://github.com/minetest-mods/dynamic_liquid.git
 git clone https://github.com/minetest-mods/magma_conduits.git
 git clone https://github.com/minetest-mods/radiant_damage.git
 
+git clone https://github.com/minetest-mods/skybox.git
+
 git clone https://github.com/minetest-mods/unified_inventory.git
 git clone https://github.com/minetest-mods/workbench.git
-git clone https://github.com/minetest-mods/stamina.git
 git clone https://github.com/minetest-mods/playeranim.git
 git clone https://github.com/minetest-mods/anvil.git
 git clone https://github.com/minetest-mods/gauges.git
@@ -29,9 +45,13 @@ git clone https://github.com/minetest-mods/letters.git
 git clone https://github.com/minetest-mods/subterrane.git
 
 git clone https://github.com/minetest-mods/moreblocks.git
+git clone https://github.com/minetest-mods/mywoodslopes.git
 git clone https://github.com/minetest-mods/quartz.git
 git clone https://github.com/minetest-mods/mesecons.git
 git clone https://github.com/minetest-mods/technic.git
+git clone https://github.com/minetest-mods/MoreMesecons.git
+git clone https://github.com/minetest-mods/digilines.git
+git clone https://github.com/minetest-mods/framedglass.git
 
 git clone https://github.com/minetest-mods/3d_armor.git
 
@@ -44,6 +64,11 @@ git clone https://github.com/minetest-mods/castle_lighting.git
 git clone https://github.com/minetest-mods/castle_farming.git
 git clone https://github.com/minetest-mods/castle_shields.git
 
+git clone https://github.com/minetest-mods/wielded_light.git
+git clone https://github.com/minetest-mods/xdecor.git
+git clone https://github.com/minetest-mods/carpets.git
+git clone https://github.com/minetest-mods/flowerpot.git
+
 git clone https://github.com/minetest-mods/ts_furniture.git
 git clone https://github.com/minetest-mods/ts_doors.git
 
@@ -53,6 +78,8 @@ git clone https://github.com/minetest-mods/lavastuff.git
 
 git clone https://github.com/minetest-mods/commoditymarket_fantasy.git
 
+git clone https://github.com/minetest-mods/prefab
+git clone https://github.com/minetest-mods/pontoons.git
 git clone https://github.com/minetest-mods/cloud_items.git
 git clone https://github.com/minetest-mods/more_chests.git
 git clone https://github.com/minetest-mods/torch_bomb.git

@@ -3,7 +3,7 @@ FROM alpine:3.13
 ENV MINETEST_GAME_VERSION master
 ENV IRRLICHT_VERSION master
 
-RUN apk add --no-cache git build-base cmake sqlite-dev curl-dev zlib-dev gd-dev \
+RUN apk add --no-cache git build-base cmake sqlite-dev curl-dev zlib-dev gd-dev python3 \
 		gmp-dev jsoncpp-dev postgresql-dev luajit-dev ca-certificates findutils
 
 WORKDIR /usr/src/minetest
